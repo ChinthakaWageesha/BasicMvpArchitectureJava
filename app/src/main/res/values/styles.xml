@@ -21,6 +21,12 @@
     <item name="android:textAllCaps">false</item>
   </style>
 
+  <!--splash theme-->
+  <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_background</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+
   <!--progress Bar Style-->
   <style name="ProgressbarStyle">
     <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
